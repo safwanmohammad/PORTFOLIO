@@ -99,7 +99,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background:white;
 }
 
 .overlay-mf {
@@ -178,7 +178,9 @@ a:hover {
 }
 
 .title-left {
-  font-size: 2rem;
+
+  font-size: 3rem;
+  font-weight: bold;
   position: relative;
 }
 
@@ -834,6 +836,18 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#main,#contact{
+  background: rgb(255,210,210);
+  background: radial-gradient(circle, rgba(255,210,210,1) 0%, rgba(151,143,255,1) 100%);
+}
+.skil_head{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
